@@ -1,0 +1,92 @@
+.heading {
+  color: rgb(3, 91, 49);
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hello {
+  background-color: aqua;
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.para1 {
+  background-color: bisque;
+  color: brown;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.para2 {
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.para3 {
+  background-color: rgba(0, 255, 89, 0.514);
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.lorem {
+  background-color: rgba(0, 255, 89, 0.514);
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  line-height: 60px;
+}
+
+/* // sudo Element */
+
+.sudoElement::first-letter {
+  color: orange;
+}
+
+.sudoElement::first-line {
+  background-color: gray;
+}
+/* /// */
+
+.sudoClass {
+  font-size: 50px;
+  margin-left: 500px;
+}
+
+/* // sudo Class  */
+
+.sudoClass:hover {
+  background-color: orange;
+  color: whitesmoke;
+}
+
+/* Flex Direction */
+
+.flex-container {
+  background-color: red;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  background-color: green;
+  color: #fff;
+}
